@@ -1,5 +1,5 @@
 # Use uma imagem oficial do Maven para a etapa de build
-FROM maven:3.9.0-jdk-17 AS build
+FROM ubuntu:latest AS build
 
 # Defina o diretório de trabalho
 WORKDIR /loja-brinquedo
