@@ -17,6 +17,8 @@
     <li>Ler: Recuperar informações sobre brinquedos, incluindo detalhes como nome, tipo, classificação, tamanho e preço.</li>
     <li>Atualizar: Modificar informações de brinquedos existentes.</li>
     <li>Deletar: Remover brinquedos do sistema.</li>
+    <li>Realizar Login e cadastro</li>
+    <li>Encriptação de dados(senha do usuário)</li>
 </ul>
 
 <h2>Tecnologias Utilizadas</h2>
