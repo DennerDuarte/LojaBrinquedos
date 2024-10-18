@@ -40,12 +40,12 @@
     </ul>
 </ol>
 
-<h2>Imagens do Sistema</h2>
-<img src="delete.png" alt="Delete Functionality" />
-<img src="getAll.png" alt="Get All Functionality" />
-<img src="getId.png" alt="Get By ID Functionality" />
-<img src="image.png" alt="Image Example" />
-<img src="initializ.png" alt="Initialization" />
-<img src="print-spring.png" alt="Print Spring" />
-<img src="update.png" alt="Update Functionality" />
-<img src="update_patch.png" alt="Update Patch Functionality" />
+<h2>Imagens</h2>
+<img src="delete.png" alt="Delete" width="300"/>
+<img src="getAll.png" alt="Get All" width="300"/>
+<img src="getId.png" alt="Get ID" width="300"/>
+<img src="image.png" alt="Image" width="300"/>
+<img src="initializ.png" alt="Initialize" width="300"/>
+<img src="print-spring.png" alt="Print Spring" width="300"/>
+<img src="update.png" alt="Update" width="300"/>
+<img src="update_patch.png" alt="Update Patch" width="300"/>
