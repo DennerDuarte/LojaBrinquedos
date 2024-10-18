@@ -5,10 +5,8 @@
 <p>Nathaly Oliveira - RM552538</p>
 <p>Caio Boris Andrulis - RM552496</p>
 
-
 <h1>Link do versionamento em nuvem</h1>
 <p>https://lojafiap2tdsr.azurewebsites.net/</p>
-
 
 <h1>Sistema de Gerenciamento de Loja de Brinquedos</h1>
 
@@ -41,3 +39,13 @@
         <li>/brinquedos/editar/{id}: Atualiza informações sobre um brinquedo específico.</li>
     </ul>
 </ol>
+
+<h2>Imagens do Sistema</h2>
+<img src="delete.png" alt="Delete Functionality" />
+<img src="getAll.png" alt="Get All Functionality" />
+<img src="getId.png" alt="Get By ID Functionality" />
+<img src="image.png" alt="Image Example" />
+<img src="initializ.png" alt="Initialization" />
+<img src="print-spring.png" alt="Print Spring" />
+<img src="update.png" alt="Update Functionality" />
+<img src="update_patch.png" alt="Update Patch Functionality" />
