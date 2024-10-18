@@ -9,7 +9,6 @@
 <p>https://lojafiap2tdsr.azurewebsites.net/</p>
 
 <h1>Sistema de Gerenciamento de Loja de Brinquedos</h1>
-
 <p>Este projeto é um Sistema de Gerenciamento de Loja de Brinquedos desenvolvido utilizando o framework Spring Boot configurado com Maven, e escrito em Java no Eclipse. O objetivo é fornecer funcionalidades básicas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar brinquedos para crianças de até 12 anos. O projeto utiliza a biblioteca Lombok para reduzir o código repetitivo e implementa o HATEOAS (Hypermedia as the Engine of Application State) para uma API RESTful com um nível de maturidade 3.</p>
 
 <h2>Funcionalidades</h2>
@@ -41,11 +40,13 @@
 </ol>
 
 <h2>Imagens</h2>
-<img src="delete.png" alt="Delete" width="300"/>
-<img src="getAll.png" alt="Get All" width="300"/>
-<img src="getId.png" alt="Get ID" width="300"/>
-<img src="image.png" alt="Image" width="300"/>
-<img src="initializ.png" alt="Initialize" width="300"/>
-<img src="print-spring.png" alt="Print Spring" width="300"/>
-<img src="update.png" alt="Update" width="300"/>
-<img src="update_patch.png" alt="Update Patch" width="300"/>
+<ul>
+    <li><img src="images/delete.png" alt="Delete Image" width="300"></li>
+    <li><img src="images/getAll.png" alt="Get All Image" width="300"></li>
+    <li><img src="images/getId.png" alt="Get ID Image" width="300"></li>
+    <li><img src="images/image.png" alt="Image" width="300"></li>
+    <li><img src="images/initializ.png" alt="Initialize Image" width="300"></li>
+    <li><img src="images/print-spring.png" alt="Print Spring Image" width="300"></li>
+    <li><img src="images/update.png" alt="Update Image" width="300"></li>
+    <li><img src="images/update_patch.png" alt="Update Patch Image" width="300"></li>
+</ul>
