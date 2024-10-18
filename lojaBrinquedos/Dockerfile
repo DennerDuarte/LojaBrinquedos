@@ -1,5 +1,10 @@
-# Use uma imagem oficial do Maven para a etapa de build
+# Use uma imagem do Ubuntu como base para a etapa de build
 FROM ubuntu:latest AS build
+
+# Atualize o repositório e instale Maven e OpenJDK 17
+RUN apt-get update && apt-get install -y \
+    openjdk-17-jdk \
+    maven
 
 # Defina o diretório de trabalho
 WORKDIR /loja-brinquedo
@@ -7,10 +12,10 @@ WORKDIR /loja-brinquedo
 # Copie o código-fonte
 COPY . .
 
-# Construa a aplicação
+# Construa a aplicação usando Maven
 RUN mvn clean install
 
-# Crie uma nova imagem para executar a aplicação
+# Crie uma nova imagem baseada no OpenJDK slim para executar a aplicação
 FROM openjdk:17-jdk-slim
 
 # Exponha a porta em que a aplicação será executada
