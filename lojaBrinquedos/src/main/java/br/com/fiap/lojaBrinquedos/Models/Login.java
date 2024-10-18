@@ -19,15 +19,15 @@ public class Login {
     private Long id;
 
     @Column(name = "username", nullable = false, length = 200)
-    @Size(min = 1, max = 200, message = "O usuário precisa ter entre 5 e 200 caracteres")
+    @Size(min = 5, max = 200, message = "O usuário precisa ter entre 5 e 200 caracteres")
     private String username;
 
     @Column(name = "email", nullable = false, length = 200)
-    @Size(min = 1, max = 200, message = "O email precisa ter entre 5 e 200 caracteres")
+    @Size(min = 5, max = 200, message = "O email precisa ter entre 5 e 200 caracteres")
     private String email;
 
     @Column(name = "password", nullable = false, length = 20)
-    @Size(min = 1, max = 200, message = "A senha precisa ter entre 5 e 20 caracteres")
+    @Size(min = 5, max = 200, message = "A senha precisa ter entre 5 e 20 caracteres")
     private String password;
 
     public Long getId() {
