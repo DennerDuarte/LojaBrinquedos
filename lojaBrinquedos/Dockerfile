@@ -11,7 +11,7 @@ WORKDIR /lojaBrinquedos
 
 # Copie o pom.xml e o diretório src
 COPY pom.xml .
-COPY src ./src
+COPY src /src
 
 # Construa a aplicação usando Maven
 RUN mvn clean install
