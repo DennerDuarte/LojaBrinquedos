@@ -28,6 +28,7 @@
     <li>Spring Boot</li>
     <li>Maven</li>
     <li>Lombok</li>
+    <li>Spring Security</li>
 </ul>
 
 <h2>Uso</h2>
