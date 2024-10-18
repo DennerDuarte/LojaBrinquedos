@@ -10,7 +10,8 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /lojaBrinquedos
 
 # Copie o pom.xml e o diretório src
-COPY pom.xml .
+COPY lojaBrinquedos/pom.xml .
+COPY lojaBrinquedos/src ./src
 
 # Construa a aplicação usando Maven
 RUN mvn clean install
