@@ -21,6 +21,9 @@
     <li>Encriptação de dados(senha do usuário)</li>
 </ul>
 
+<h1>IDE Utilizada</h1>
+<p>Intellij</p>
+
 <h2>Tecnologias Utilizadas</h2>
 <ul>
     <li>Java</li>
