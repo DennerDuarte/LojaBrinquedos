@@ -1,4 +1,4 @@
-FROM maven:3.9.0-openjdk-17 AS build
+FROM ubuntu:latest AS build
 
 # Defina o diretório de trabalho
 WORKDIR /loja-brinquedo
