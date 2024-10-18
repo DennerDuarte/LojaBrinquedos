@@ -7,10 +7,11 @@ RUN apt-get update && apt-get install -y \
     maven
 
 # Defina o diretório de trabalho
-WORKDIR /loja-brinquedo
+WORKDIR /lojaBrinquedos
 
-# Copie o código-fonte
-COPY . .
+# Copie o pom.xml e o diretório src
+COPY pom.xml .
+COPY src ./src
 
 # Construa a aplicação usando Maven
 RUN mvn clean install
@@ -22,7 +23,7 @@ FROM openjdk:17-jdk-slim
 EXPOSE 8080
 
 # Copie o arquivo WAR da etapa de build
-COPY --from=build /loja-brinquedo/target/lojaBrinquedos-0.0.1-SNAPSHOT.war /app.war
+COPY --from=build /lojaBrinquedos/target/lojaBrinquedos-0.0.1-SNAPSHOT.war /app.war
 
 # Defina o ponto de entrada para executar a aplicação
 ENTRYPOINT ["java", "-jar", "/app.war"]
