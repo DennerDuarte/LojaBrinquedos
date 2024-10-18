@@ -6,7 +6,7 @@
 <p>Caio Boris Andrulis - RM552496</p>
 
 <h1>Link do versionamento em nuvem</h1>
-<p>https://lojafiap2tdsr.azurewebsites.net/</p>
+<p>https://lojabrinquedos-djy5.onrender.com</p>
 
 <h1>Sistema de Gerenciamento de Loja de Brinquedos</h1>
 <p>Este projeto é um Sistema de Gerenciamento de Loja de Brinquedos desenvolvido utilizando o framework Spring Boot configurado com Maven, e escrito em Java no Eclipse. O objetivo é fornecer funcionalidades básicas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar brinquedos para crianças de até 12 anos. O projeto utiliza a biblioteca Lombok para reduzir o código repetitivo e implementa o HATEOAS (Hypermedia as the Engine of Application State) para uma API RESTful com um nível de maturidade 3.</p>
